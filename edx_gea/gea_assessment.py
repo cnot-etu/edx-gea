@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from student.models import anonymous_id_for_user
+from common.djangoapps.student.models import anonymous_id_for_user
 from submissions import api as submissions_api
 
 import logging
